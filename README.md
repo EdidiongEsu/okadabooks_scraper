@@ -1,5 +1,5 @@
 # okadabooks_scraper
-  This scraper is used to remove details from all available bookcards in the website https://okadabooks.com. Okadabooks is an online store for african literature based in Nigeria.
+  This scraper is used to remove details from all available bookcards in the website https://okadabooks.com. Okadabooks is a popular online store for african literature based in Nigeria.
   Here is what one of the bookcards look like. Highlighted are some of the details that will be scrapped in this project.
 
    ![](https://github.com/EdidiongEsu/okadabooks_scraper/blob/master/okadabooks_pictures/Capture.PNG)
@@ -32,8 +32,9 @@
   
   **Snapshot of dataframe**
   
-  After scraping and cleaning all bookcards gotten, about 18,000 books were left. This excluded books that had been taken down by the aadmin/author after publication. A similarity metric will be calculated with all the millions of words embedded in the blurb column.
-Her, is what it looks like:
+  After scraping, cleaning and getting rid of all duplicates in the bookcards gotten, about 18,000 books were left. This excluded books that had been taken down by the aadmin/author after publication. A similarity metric will be calculated with the millions of words in the blurb column and some EDA will be done to understand the reading pattern of Nigerians and at the same time ascertain the influence of the bookstore in this pattern.
+  
+Here, is what the final table looks like:
 
 ![](https://github.com/EdidiongEsu/okadabooks_scraper/blob/master/okadabooks_pictures/dataframe%20table.PNG)
 
