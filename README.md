@@ -29,5 +29,15 @@
   ![](https://github.com/EdidiongEsu/okadabooks_scraper/blob/master/okadabooks_pictures/load_more%20button.PNG)
   
   There are different types of pagination which include infinite scrolling (common in Twitter), serial pagination and a lot more. In this project, LoadMore pagination is used where a tap triggers more content. Here Javascript is used, that why beautiful soup used alone won't work. Action class click in selenium helps to scroll down to the end of the webpage after webelement click has been used. I hope you have some fun with the code.
+  
+  **Snapshot of dataframe**
+  
+  After scraping and cleaning all bookcards gotten, about 18,000 books were left. This excluded books that had been taken down by the aadmin/author after publication. A similarity metric will be calculated with all the millions of words embedded in the blurb column.
+Her, is what it looks like:
+
+![](https://github.com/EdidiongEsu/okadabooks_scraper/blob/master/okadabooks_pictures/dataframe%20table.PNG)
+
+For more experimental data analysis on the data gotten, please check my repository.
+
  
  ***Happy coding!!!***
