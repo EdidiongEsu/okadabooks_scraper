@@ -29,7 +29,7 @@ When any kind of interaction with the webpage is required during webscraping, it
  **LoadMore Button**
  Before scrapping:
   
-  ![](https://github.com/EdidiongEsu/okadabooks_scraper/blob/master/okadabooks_pictures/loadmore_before_scrapping.PNG)
+  ![](https://github.com/EdidiongEsu/okadabooks_scraper/blob/master/okadabooks_pictures/loadmore_before_webscraping.PNG)
   
   There are different types of pagination which include infinite scrolling (common in Twitter), serial pagination and a lot more. In this project, LoadMore pagination is used where a tap triggers more content. Here Javascript is used, that why beautifulSoup library used alone won't work. Action class click in selenium helps to scroll down to the end of the webpage after webelement click has been used. In the simplest terms, The idea is for an automated software (in this case chrome driver) to tap the loadmore button in a span of set time till it no longer exists.
   
