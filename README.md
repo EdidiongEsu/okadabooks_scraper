@@ -27,6 +27,7 @@ When any kind of interaction with the webpage is required during webscraping, it
     
  
  **LoadMore Button**
+
 Before scrapping:
   
   ![](https://github.com/EdidiongEsu/okadabooks_scraper/blob/master/okadabooks_pictures/loadmore_before_webscraping.PNG)
