@@ -23,7 +23,8 @@
   **8**)Booklink
   
   ## Dynamic content
-    When any kind of interaction with the webpage is required during webscraping, it is no longer a static one but becomes a dynamic one. Here, selenium comes to the rescue. Selenium is used in this project because automation is required. There are 22 categories in the website and in each category there is a LoadMore button. When the loadMore button is tapped on by a user, it reveals more content. To be able to get all bookcards from the website, The load more button must be pressed till it is no longer available. The crawling algorithm must imitate user interaction in order to avoid being blocked and to also make sure too many requests are not sent to the website at once. The extracted data set will be stored in this repository. The data extracted will be used for some EDA which will be posted in this repository.
+When any kind of interaction with the webpage is required during webscraping, it is no longer a static one but becomes a dynamic one. Here, selenium comes to the rescue. Selenium is used in this project because automation is required. There are 22 categories in the website and in each category there is a LoadMore button. When the loadMore button is tapped on by a user, it reveals more content. To be able to get all bookcards from the website, The load more button must be pressed till it is no longer available. The crawling algorithm must imitate user interaction in order to avoid being blocked and to also make sure too many requests are not sent to the website at once. The extracted data set will be stored in this repository. The data extracted will be used for some EDA which will be posted in this repository.
+    
  
  **LoadMore Button**
   
