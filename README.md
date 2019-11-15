@@ -27,13 +27,13 @@ When any kind of interaction with the webpage is required during webscraping, it
     
  
  ## LoadMore Button
-Here is a picture of one of the pages during scraping
+Here are pictures showing the beginning and end products of the webpages during scraping. The contents of each book are then gotten when the loadMore Button is no longer there.
 
 **Before scrapping:**
   
   ![Hello](https://github.com/EdidiongEsu/okadabooks_scraper/blob/master/okadabooks_pictures/okadabooks_before_scraping.PNG)
   
-  There are different types of pagination which include infinite scrolling (common in Twitter), serial pagination and a lot more. In this project, LoadMore pagination is used where a tap triggers more content. Here Javascript is used, that why beautifulSoup library used alone won't work. Action class click in selenium helps to scroll down to the end of the webpage after webelement click has been used. In the simplest terms, The idea is for an automated software (in this case chrome driver) to tap the loadmore button in a span of set time till it no longer exists.
+  There are different types of pagination which include infinite scrolling (common in Twitter), serial pagination and a lot more. In this project, LoadMore pagination is used where a tap triggers more content. Here Javascript is used, that why beautifulSoup library used alone won't work. Action class click in selenium helps to scroll down to the end of the webpage after webelement click has been used. In the simplest terms, The idea is for an automated software (in this case chrome driver) to tap the loadmore button in between seconds (used as a buffer to imitate a user and to avoid overloading the website with requests) continously till it no longer exists.
   
 **After scraping:**
 
@@ -42,7 +42,7 @@ Here is a picture of one of the pages during scraping
   
   ## Snapshot of dataframe
   
-  After scraping, cleaning and getting rid of all duplicates in the bookcards gotten, about 18,000 books were left. This excluded books that had been taken down by the aadmin/author after publication. A similarity metric will be calculated with the millions of words in the blurb column and some EDA will be done to understand the reading pattern of Nigerians and at the same time ascertain the influence of the bookstore in this pattern.
+  After scraping, cleaning and getting rid of all duplicates in the bookcards gotten, around 18,000 books were left. This excluded books that had been taken down by the admin/author after publication. A similarity metric will be calculated with the millions of words in the blurb column and some EDA will be done to understand the reading pattern of Nigerians and at the same time ascertain the influence of the bookstore in our reading ecosystem.
   
 Here, is what the final table looks like:
 
