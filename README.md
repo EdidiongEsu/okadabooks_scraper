@@ -48,7 +48,7 @@ Here, is what the final table looks like:
 
 ![](https://github.com/EdidiongEsu/okadabooks_scraper/blob/master/okadabooks_pictures/dataframe%20table.PNG)
 
-For more experimental data analysis on the data gotten, please check my [repository](https://github.com/EdidiongEsu/analyzing_okadabooks).
+For more  data analysis on the data gotten (esample, NLP project), please check my [portfolio](https://github.com/EdidiongEsu/portfolio).
 
  
  ***Happy coding!!!***
